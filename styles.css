@@ -1,0 +1,118 @@
+body {
+    margin: 0px 0px 0px 0px;
+    color: #E0E1DD;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    top: -10px;
+}
+
+/* TOP SECTION */
+#top-sect {
+    padding-top: 100px;
+    height: 250px;
+    background-image: url(images/bryggen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#headline1 {
+    margin: 10px auto 0 auto;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    width: 220px;
+    padding: 2px;
+}
+
+#headline2 {
+    margin: 10px auto 0 auto;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    max-width: 440px;
+    min-width: 220px;
+    padding: 2px;
+}
+
+/* MIDDLE SECTION */
+#mid-sect {
+    border: none;
+    background-image: linear-gradient(#1B263B, #415A77);
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+#activity-headline {
+    padding-top: 40px
+}
+
+#flexbox {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.act-img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.act-img:hover {
+    width: 120px;
+    margin-bottom: -10px;
+}
+
+.act-name {
+}
+
+p {
+    margin: -25px 0 40px 0;
+    width: 150px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* BOTTOM SECTION */
+#bot-sect {
+    background-image: linear-gradient(#415A77, #E0E1DD);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding: 10px 100px
+}
+
+#card {
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    background-color: #0D1B2A;
+    height: 295px;
+    width: 400px;
+    border-radius: 10px;
+    border-bottom: 5px solid #415A77;
+}
+
+#john-pic {
+    margin: auto auto auto 15px;
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+#card-text, {
+}
+
+#guide {
+    line-height: 2.5;
+    
+}
+
+#quote {
+    line-height: 1.5;
+}
+
+#name {
+    line-height: 4;
+}
