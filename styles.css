@@ -49,29 +49,30 @@ body {
 #flexbox {
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .act-img {
-    width: 100px;
+    width: 80px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
 .act-img:hover {
-    width: 120px;
+    width: 100px;
     margin-bottom: -10px;
 }
 
 .act-name {
+    margin: 35px 15px;
 }
 
 p {
-    margin: -25px 0 40px 0;
+    margin: -25px 1px 40px 1px;
     width: 150px;
     display: inline-block;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /* BOTTOM SECTION */
@@ -88,16 +89,16 @@ p {
     display: flex;
     padding: 5px;
     background-color: #0D1B2A;
-    height: 295px;
-    width: 400px;
+    height: 250px;
+    width: 500px;
     border-radius: 10px;
     border-bottom: 5px solid #415A77;
 }
 
 #john-pic {
-    margin: auto auto auto 15px;
-    height: 250px;
-    width: 180px;
+    margin: 15px auto auto 15px;
+    height: 180px;
+    width: 120px;
     border-radius: 10px;
 }
 
@@ -105,7 +106,7 @@ p {
 }
 
 #guide {
-    line-height: 2.5;
+    line-height: 1;
     
 }
 
