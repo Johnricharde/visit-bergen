@@ -1,4 +1,5 @@
 body {
+    width: cover;
     margin: 0px 0px 0px 0px;
     color: #E0E1DD;
     text-align: center;
@@ -90,7 +91,7 @@ p {
     margin: 10px;
     padding: 5px;
     background-color: #0D1B2A;
-    height: 250px;
+    height: 210px;
     width: 500px;
     border-radius: 10px;
     border-bottom: 5px solid #415A77;
