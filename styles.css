@@ -47,9 +47,9 @@ body {
 }
 
 #flexbox {
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .act-img {
@@ -68,8 +68,9 @@ body {
 }
 
 p {
-    margin: -25px 1px 40px 1px;
-    width: 150px;
+    text-align: center;
+    margin: -25px 10px 40px 10px;
+    width: 130px;
     display: inline-block;
     font-weight: normal;
     font-size: 14px;
@@ -100,9 +101,6 @@ p {
     height: 180px;
     width: 120px;
     border-radius: 10px;
-}
-
-#card-text, {
 }
 
 #guide {
