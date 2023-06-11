@@ -4,8 +4,6 @@ body {
     color: #E0E1DD;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
-    position: relative;
-    top: -10px;
 }
 
 /* TOP SECTION */
@@ -22,7 +20,7 @@ body {
     margin: 10px auto 0 auto;
     background-color: #0D1B2A;
     border-radius: 10px;
-    width: 220px;
+    width: 200px;
     padding: 2px;
 }
 
@@ -30,8 +28,8 @@ body {
     margin: 10px auto 0 auto;
     background-color: #0D1B2A;
     border-radius: 10px;
-    max-width: 440px;
-    min-width: 220px;
+    max-width: 360px;
+    min-width: 200px;
     padding: 2px;
 }
 
@@ -92,7 +90,8 @@ p {
     padding: 5px;
     background-color: #0D1B2A;
     height: 210px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 200px;
     border-radius: 10px;
     border-bottom: 5px solid #415A77;
 }
